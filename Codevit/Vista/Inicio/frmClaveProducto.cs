@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Vista
+namespace Vista.Inicio
 {
-	public partial class Form1 : Form
+	public partial class frmClaveProducto : Form
 	{
-		public Form1()
+		public frmClaveProducto()
 		{
 			InitializeComponent();
+		}
+
+		private void TsbCerrar_Click(object sender, EventArgs e)
+		{
+			this.Close();
 		}
 	}
 }
