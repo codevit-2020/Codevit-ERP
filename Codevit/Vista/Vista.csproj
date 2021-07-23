@@ -107,5 +107,15 @@
   <ItemGroup>
     <Folder Include="Imagenes\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controlador\Controlador.csproj">
+      <Project>{e86ecc94-8448-4a7b-b86a-df1a8d8da990}</Project>
+      <Name>Controlador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{72f337de-36f7-487a-8285-3d04fd52b295}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

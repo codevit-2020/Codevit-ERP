@@ -33,10 +33,10 @@
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.lblIngrese = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.textBox3 = new System.Windows.Forms.TextBox();
-			this.textBox4 = new System.Windows.Forms.TextBox();
+			this.txtLlave1 = new System.Windows.Forms.TextBox();
+			this.txtLlave2 = new System.Windows.Forms.TextBox();
+			this.txtLlave3 = new System.Windows.Forms.TextBox();
+			this.txtLlave4 = new System.Windows.Forms.TextBox();
 			this.btnSiguiente = new System.Windows.Forms.Button();
 			this.tsbCerrar = new System.Windows.Forms.ToolStripButton();
 			this.tsMenu.SuspendLayout();
@@ -84,33 +84,33 @@
 			this.label1.TabIndex = 3;
 			this.label1.Text = "Licencia:";
 			// 
-			// textBox1
+			// txtLlave1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(143, 59);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(50, 20);
-			this.textBox1.TabIndex = 4;
+			this.txtLlave1.Location = new System.Drawing.Point(143, 59);
+			this.txtLlave1.Name = "txtLlave1";
+			this.txtLlave1.Size = new System.Drawing.Size(50, 20);
+			this.txtLlave1.TabIndex = 4;
 			// 
-			// textBox2
+			// txtLlave2
 			// 
-			this.textBox2.Location = new System.Drawing.Point(199, 58);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(50, 20);
-			this.textBox2.TabIndex = 5;
+			this.txtLlave2.Location = new System.Drawing.Point(199, 58);
+			this.txtLlave2.Name = "txtLlave2";
+			this.txtLlave2.Size = new System.Drawing.Size(50, 20);
+			this.txtLlave2.TabIndex = 5;
 			// 
-			// textBox3
+			// txtLlave3
 			// 
-			this.textBox3.Location = new System.Drawing.Point(255, 57);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(50, 20);
-			this.textBox3.TabIndex = 6;
+			this.txtLlave3.Location = new System.Drawing.Point(255, 57);
+			this.txtLlave3.Name = "txtLlave3";
+			this.txtLlave3.Size = new System.Drawing.Size(50, 20);
+			this.txtLlave3.TabIndex = 6;
 			// 
-			// textBox4
+			// txtLlave4
 			// 
-			this.textBox4.Location = new System.Drawing.Point(311, 57);
-			this.textBox4.Name = "textBox4";
-			this.textBox4.Size = new System.Drawing.Size(50, 20);
-			this.textBox4.TabIndex = 7;
+			this.txtLlave4.Location = new System.Drawing.Point(311, 57);
+			this.txtLlave4.Name = "txtLlave4";
+			this.txtLlave4.Size = new System.Drawing.Size(50, 20);
+			this.txtLlave4.TabIndex = 7;
 			// 
 			// btnSiguiente
 			// 
@@ -120,6 +120,7 @@
 			this.btnSiguiente.Size = new System.Drawing.Size(49, 46);
 			this.btnSiguiente.TabIndex = 8;
 			this.btnSiguiente.UseVisualStyleBackColor = true;
+			this.btnSiguiente.Click += new System.EventHandler(this.BtnSiguiente_Click);
 			// 
 			// tsbCerrar
 			// 
@@ -138,10 +139,10 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(373, 133);
 			this.Controls.Add(this.btnSiguiente);
-			this.Controls.Add(this.textBox4);
-			this.Controls.Add(this.textBox3);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.txtLlave4);
+			this.Controls.Add(this.txtLlave3);
+			this.Controls.Add(this.txtLlave2);
+			this.Controls.Add(this.txtLlave1);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.lblIngrese);
 			this.Controls.Add(this.pictureBox1);
@@ -165,10 +166,10 @@
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label lblIngrese;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.TextBox textBox3;
-		private System.Windows.Forms.TextBox textBox4;
+		private System.Windows.Forms.TextBox txtLlave1;
+		private System.Windows.Forms.TextBox txtLlave2;
+		private System.Windows.Forms.TextBox txtLlave3;
+		private System.Windows.Forms.TextBox txtLlave4;
 		private System.Windows.Forms.Button btnSiguiente;
 		private System.Windows.Forms.ToolStripButton tsbCerrar;
 	}
